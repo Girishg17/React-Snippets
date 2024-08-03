@@ -29,6 +29,9 @@ function Home() {
     if (button.toLowerCase() === 'navbar') {
       navigate('/navbar');
     }
+    if (button.toLowerCase() === 'drawer') {
+      navigate('/drawer');
+    }
   };
 
   const handleGitHubButtonClick = () => {
