@@ -44,6 +44,7 @@ function Home() {
   return (
     <div className="home-container">
       <div className="top-bar">
+      <div className="search-container">
         <input
           type="text"
           placeholder="Search React Snippets..."
@@ -51,7 +52,8 @@ function Home() {
           onChange={(e) => setSearchQuery(e.target.value)}
           className="search-bar"
         />
-        <BsSearch className="search-icon" style={{marginRight:'20px'}} onClick={handleSearchClick} />
+        <BsSearch className="search-icon" style={{marginRight:'px'}} onClick={handleSearchClick} />
+        </div>
         <button className="github-button" onClick={handleGitHubButtonClick}>
           GitHub
         </button>
