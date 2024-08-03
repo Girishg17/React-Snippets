@@ -41,6 +41,9 @@ function Home() {
     if (button.toLowerCase() === 'carousel') {
       navigate('/carousel');
     }
+    if (button.toLowerCase() === 'snackbar') {
+      navigate('/snackbar');
+    }
   };
 
   const handleGitHubButtonClick = () => {

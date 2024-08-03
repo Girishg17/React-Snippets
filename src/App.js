@@ -8,6 +8,7 @@ import Drawer from './snippets/drawer/Drawer';
 import Alert from './snippets/alert/Alert';
 import Progress from './snippets/progress/Progress';
 import Carousel from './snippets/carousels/Carousel';
+import Snackbar from './snippets/snackbar/Snackbar';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/alert' element={<Alert />} />
         <Route path='/progress' element={<Progress />} />
         <Route path='/carousel' element={<Carousel />} />
+        <Route path='/snackbar' element={<Snackbar />} />
       </Routes>
     </Router>
   );
