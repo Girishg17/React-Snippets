@@ -6,6 +6,7 @@ import Home from './Home';
 import Spinner from './snippets/spinner/Spinner';
 import NavBar from './snippets/navbar/NavBar';
 import Drawer from './snippets/drawer/Drawer';
+import Alert from './snippets/alert/Alert';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/spinner" element={<Spinner />} />
         <Route path="/navbar" element={<NavBar />} />
         <Route path="/drawer"element={<Drawer />} />
+        <Route path='/alert' element={<Alert />} />
       </Routes>
     </Router>
   );

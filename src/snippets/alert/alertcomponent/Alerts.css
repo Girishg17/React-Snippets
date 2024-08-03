@@ -1,0 +1,26 @@
+.custom-swal-popup {
+    background: linear-gradient(45deg, #ff6f61, #de483a);
+    border-radius: 15px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    letter-spacing: 0.05em;
+  }
+  
+  .custom-swal-title {
+    color: #fff;
+  }
+  
+  .custom-swal-button {
+    background: #fff !important;
+    border: none;
+    color: #de483a !important;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  .custom-swal-button:hover {
+    background: #de483a !important;
+    color: #fff !important;
+  }
+  

@@ -32,6 +32,9 @@ function Home() {
     if (button.toLowerCase() === 'drawer') {
       navigate('/drawer');
     }
+    if (button.toLowerCase() === 'alert') {
+      navigate('/alert');
+    }
   };
 
   const handleGitHubButtonClick = () => {
