@@ -7,6 +7,7 @@ import Spinner from './snippets/spinner/Spinner';
 import NavBar from './snippets/navbar/NavBar';
 import Drawer from './snippets/drawer/Drawer';
 import Alert from './snippets/alert/Alert';
+import Progress from './snippets/progress/Progress';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/navbar" element={<NavBar />} />
         <Route path="/drawer"element={<Drawer />} />
         <Route path='/alert' element={<Alert />} />
+        <Route path='/progress' element={<Progress />} />
       </Routes>
     </Router>
   );

@@ -1,3 +1,4 @@
+
 /* Spinner.css */
 .spinner {
     width: 40px;
@@ -48,4 +49,46 @@
       -webkit-transform: scale(1);
     }
   }
+
+  /* second spinner */
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .spinner2 {
+    width: 50px;
+    height: 50px;
+    border: 4px solid transparent;
+    border-top: 4px solid #ff6f61;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    background: linear-gradient(45deg, #7e61ff, #ff8e53, #ffbf47);
+    background-size: 200% 200%;
+    animation: gradient 3s ease infinite, spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
   
