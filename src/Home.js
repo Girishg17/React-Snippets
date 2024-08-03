@@ -5,7 +5,7 @@ import './Home.css';
 
 function Home() {
   const [searchQuery, setSearchQuery] = useState('');
-  const [buttons, setButtons] = useState([
+  const [buttons] = useState([
     'Spinner', 'Alert', 'Drawer', 'NavBar', 'Progress'
   ]);
   const [filteredButtons, setFilteredButtons] = useState(buttons);
