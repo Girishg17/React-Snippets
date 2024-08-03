@@ -7,6 +7,7 @@ import NavBar from './snippets/navbar/NavBar';
 import Drawer from './snippets/drawer/Drawer';
 import Alert from './snippets/alert/Alert';
 import Progress from './snippets/progress/Progress';
+import Carousel from './snippets/carousels/Carousel';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/drawer"element={<Drawer />} />
         <Route path='/alert' element={<Alert />} />
         <Route path='/progress' element={<Progress />} />
+        <Route path='/carousel' element={<Carousel />} />
       </Routes>
     </Router>
   );
