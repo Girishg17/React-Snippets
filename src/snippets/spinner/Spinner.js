@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div>
-      {loading ? <Spinner /> : <div style={{alignItems:'center'}}>Content Loaded</div>}
+      {loading ? <Spinner /> : <div style={{justifyContent:'center', display: 'flex',alignItems: 'center',paddingTop: '20px',paddingLeft: '35px',}}>Content Loaded</div>}
     </div>
   );
 };

@@ -108,10 +108,12 @@ body {
     cursor: pointer;
     transition: background-color 0.3s ease;
     margin: 10px;
+    border-radius: 5px;
   }
   
   .toggle-button:hover {
-    background-color: #3a3f47;
+    background-color: '#0056b3';
+    transform: 'scale(1.05)',
   }
   
   .button-container {
