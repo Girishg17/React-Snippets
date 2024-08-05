@@ -6,7 +6,7 @@ import './Home.css';
 function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [buttons] = useState([
-    'Spinner', 'Alert', 'Drawer', 'NavBar', 'Progress','SnackBar','Carousel','Stepper'
+    'Spinner', 'Alert', 'Drawer', 'NavBar', 'Progress','SnackBar','Carousel','Stepper','Forms'
   ]);
   const [filteredButtons, setFilteredButtons] = useState(buttons);
   const navigate = useNavigate();
@@ -46,6 +46,9 @@ function Home() {
     }
     if (button.toLowerCase() === 'stepper') {
       navigate('/stepper');
+    }
+    if (button.toLowerCase() === 'forms') {
+      navigate('/form');
     }
   };
 

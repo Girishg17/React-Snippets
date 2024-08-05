@@ -10,7 +10,8 @@ import Progress from './snippets/progress/Progress';
 import Carousel from './snippets/carousels/Carousel';
 import Snackbar from './snippets/snackbar/Snackbar';
 import Stepper from './snippets/stepper/Stepper';
-
+import Form from './snippets/forms/Forms'
+;
 function App() {
   return (
     <Router>
@@ -24,6 +25,7 @@ function App() {
         <Route path='/carousel' element={<Carousel />} />
         <Route path='/snackbar' element={<Snackbar />} />
         <Route path='/stepper' element={<Stepper />} />
+        <Route path='/form' element={<Form />} />
       </Routes>
     </Router>
   );
