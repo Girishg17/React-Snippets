@@ -6,7 +6,7 @@ import './Home.css';
 function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [buttons] = useState([
-    'Spinner', 'Alert', 'Drawer', 'NavBar', 'Progress','SnackBar','Carousel','Stepper','Forms','Dialog',
+    'Spinner', 'Alert', 'Drawer', 'NavBar', 'Progress','SnackBar','Carousel','Stepper','Forms','Dialog','DarkMode'
   ]);
   const [filteredButtons, setFilteredButtons] = useState(buttons);
   const navigate = useNavigate();
@@ -52,6 +52,9 @@ function Home() {
     }
     if (button.toLowerCase() === 'dialog') {
       navigate('/dialog');
+    }
+    if (button.toLowerCase() === 'darkmode') {
+      navigate('/dark');
     }
   };
 

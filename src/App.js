@@ -12,6 +12,7 @@ import Snackbar from './snippets/snackbar/Snackbar';
 import Stepper from './snippets/stepper/Stepper';
 import Form from './snippets/forms/Forms';
 import Dialog from './snippets/dialog/Dialog';
+import Dark from './snippets/darkmode/Dark';
 function App() {
   return (
     <Router>
@@ -27,6 +28,7 @@ function App() {
         <Route path='/stepper' element={<Stepper />} />
         <Route path='/form' element={<Form />} />
         <Route path='/dialog' element={<Dialog />} />
+        <Route path='/dark' element={<Dark />} />
       </Routes>
     </Router>
   );
