@@ -15,6 +15,11 @@ const Spinner = () => {
           <div className="spinner2"></div>
         </div>
       </div>
+      <div>
+        <div className="spinner-container">
+          <div className="spinner3"></div>
+        </div>
+      </div>
     </div>
   );
 };
