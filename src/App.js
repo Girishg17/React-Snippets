@@ -13,6 +13,7 @@ import Stepper from './snippets/stepper/Stepper';
 import Form from './snippets/forms/Forms';
 import Dialog from './snippets/dialog/Dialog';
 import Dark from './snippets/darkmode/Dark';
+import Accordion from './snippets/accordion/Accordion';
 function App() {
   return (
     <Router>
@@ -29,6 +30,7 @@ function App() {
         <Route path='/form' element={<Form />} />
         <Route path='/dialog' element={<Dialog />} />
         <Route path='/dark' element={<Dark />} />
+        <Route path='/accordion' element={<Accordion />} />
       </Routes>
     </Router>
   );
