@@ -14,6 +14,7 @@ import Form from './snippets/forms/Forms';
 import Dialog from './snippets/dialog/Dialog';
 import Dark from './snippets/darkmode/Dark';
 import Accordion from './snippets/accordion/Accordion';
+import Autoscroll from './snippets/autoscroll/Autoscroll';
 function App() {
   return (
     <Router>
@@ -31,6 +32,7 @@ function App() {
         <Route path='/dialog' element={<Dialog />} />
         <Route path='/dark' element={<Dark />} />
         <Route path='/accordion' element={<Accordion />} />
+        <Route path='/autoscroll' element={<Autoscroll />} />
       </Routes>
     </Router>
   );

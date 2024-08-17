@@ -1,0 +1,63 @@
+/* Autocrolls.module.css */
+
+.containers {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .available-games {
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .available-games h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .available-games ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .available-games li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .available-games li:last-child {
+    border-bottom: none;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  
