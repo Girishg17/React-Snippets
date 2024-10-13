@@ -15,6 +15,7 @@ import Dialog from './snippets/dialog/Dialog';
 import Dark from './snippets/darkmode/Dark';
 import Accordion from './snippets/accordion/Accordion';
 import Autoscroll from './snippets/autoscroll/Autoscroll';
+import LoadingButton from './snippets/loadingbutton/LoadingButton';
 function App() {
   return (
     <Router>
@@ -33,6 +34,7 @@ function App() {
         <Route path='/dark' element={<Dark />} />
         <Route path='/accordion' element={<Accordion />} />
         <Route path='/autoscroll' element={<Autoscroll />} />
+        <Route path='/loadingbutton' element={<LoadingButton/>}/>
       </Routes>
     </Router>
   );

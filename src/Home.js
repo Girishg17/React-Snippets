@@ -6,7 +6,7 @@ import './Home.css';
 function Home() {
   const [searchQuery, setSearchQuery] = useState('');
   const [buttons] = useState([
-    'Spinner', 'Alert', 'Drawer', 'NavBar', 'Progress','SnackBar','Carousel','Stepper','Forms','Dialog','DarkMode','Accordion','Autoscroll'
+    'Spinner', 'Alert', 'Drawer', 'NavBar', 'Progress','SnackBar','Carousel','Stepper','Forms','Dialog','DarkMode','Accordion','Autoscroll','LoadingButton'
   ]);
   const [filteredButtons, setFilteredButtons] = useState(buttons);
   const navigate = useNavigate();
@@ -61,6 +61,9 @@ function Home() {
     }
     if (button.toLowerCase() === 'autoscroll') {
       navigate('/autoscroll');
+    }
+    if(button.toLowerCase()==='loadingbutton'){
+      navigate('/loadingbutton');
     }
   };
 
